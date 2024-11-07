@@ -1,0 +1,22 @@
+/*Barra de tareas*/
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #000;
+    padding: 20px;
+    width: 250px;
+}
+.sidebar .nav-link {
+    color: #fff;
+}
+
+.sidebar .nav-link:hover {
+    color: #ddd;
+}
+
+.content {
+    margin-left: 270px;
+    margin-top: 50px;
+}
